@@ -1,0 +1,21 @@
+.todo-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  .todo-list li {
+    margin-bottom: 10px;
+  }
+  
+  .todo-list button {
+    background-color: #eaeaea;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .todo-list button:hover {
+    background-color: #d5d5d5;
+  }
+  
