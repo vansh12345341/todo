@@ -12,6 +12,7 @@ const App = () => {
     const updatedTodos = [...todos];
     updatedTodos[index].bookmark = !updatedTodos[index].bookmark;
     setTodos(updatedTodos);
+    console.log(todos);
   };
 
   return (
